@@ -9,77 +9,108 @@ body {
   flex-direction: column;
   align-items: center;
 }
-button {
+a {
   cursor: pointer;
   font-size: 1.5em;
   margin-top: 1em;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: block;
   padding: 2em;
   width: 80vw;
+  height: 40vw;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row1 {
+  margin-bottom: 5vw;
+}
+
+.section1 {
+  width: calc(100% * 5 / 14);
+  height: 20vw;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% * 2 / 14);
+  height: 20vw;
+}
+
+.subsection {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
 }
 
 .item {
-  margin-right: 1px;
-  margin-bottom: 5vw;
   border-radius: 5px;
   border: 5px solid rgba(0, 0, 0, 0.075);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
-
-.item:nth-of-type(1) {
+.item1 {
   background-color: gold;
   width: calc(100% * 5 / 14);
   height: 10vw;
 }
-.item:nth-of-type(2) {
+.item2 {
   background-color: tomato;
   width: calc(100% * 5 / 14);
   height: 10vw;
 }
-.item:nth-of-type(3) {
+.item3 {
   background-color: whitesmoke;
   width: calc(100% * 2 / 14);
   height: 10vw;
 }
-.item:nth-of-type(4) {
+.item4 {
   background-color: mediumpurple;
   width: calc(100% * 2 / 14);
   height: 20vw;
 }
-
-.item:nth-of-type(5) {
+.item5 {
   background-color: whitesmoke;
-  width: calc(100% * 1 / 14);
+  width: 20%;
   height: 5vw;
 }
-
-.item:nth-of-type(6) {
+.item6 {
   background-color: mediumpurple;
-  width: calc(100% * 1 / 14);
+  width: 20%;
   height: 5vw;
 }
-.item:nth-of-type(7) {
+.item7 {
   background-color: gold;
-  width: calc(100% * 1 / 14);
+  width: 20%;
   height: 5vw;
 }
-.item:nth-of-type(8) {
-  background-color: mediumpurple;
-  width: calc(100% * 2 / 14);
+.item8 {
+  background-color: tomato;
+  width: 40%;
   height: 10vw;
 }
-.item:nth-of-type(9) {
+.item9 {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 10vw;
+}
+.item10 {
+  background-color: mediumpurple;
+  width: 100%;
+  height: 10vw;
+}
+.item11 {
+  background-color: gold;
+  width: 100%;
+  height: 5vw;
+}
+.item12 {
   background-color: gold;
   width: calc(100% * 2 / 14);
   height: 20vw;
-}
-.item:nth-of-type(10),
-.item:nth-of-type(11),
-.item:nth-of-type(12) {
-  display: none;
 }

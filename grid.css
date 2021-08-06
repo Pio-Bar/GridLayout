@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 
-button{
+a{
   cursor: pointer;
   font-size: 1.5em;
   margin-top: 1em;
